@@ -1,0 +1,22 @@
+{
+  "name": "fylo-landing-page-with-two-column-layout-master",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.6.1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
