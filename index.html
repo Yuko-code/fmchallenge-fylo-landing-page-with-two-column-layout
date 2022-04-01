@@ -23,7 +23,7 @@
   </head>
   <body>
     <header class="header">
-      <img class="header__logo" src="images/logo.svg" alt="logo" />
+      <div class="header__logo"></div>
       <ul class="header__menu">
         <li class="header__menu--item"><a href="default.asp">Features</a></li>
         <li class="header__menu--item"><a href="news.asp">Team</a></li>
@@ -32,11 +32,7 @@
     </header>
     <main>
       <section class="cta">
-        <img
-          class="cta__image"
-          src="images/illustration-1.svg"
-          alt="illustration people looking into file"
-        />
+        <div class="cta__image"></div>
         <h1 class="cta__heading">
           All your files in one secure location, accessible anywhere.
         </h1>
@@ -57,53 +53,51 @@
         </form>
       </section>
 
-      <img src="images/bg-curve-mobile.svg" alt="" />
-
       <section class="productivity">
-        <img
-          class="productivity__image"
-          src="images/illustration-2.svg"
-          alt="illustration people talking"
-        />
-        <h2 class="productivity__heading">Stay productive, wherever you are</h2>
-        <p class="productivity__paragraph">
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs.
-        </p>
-        <p class="productivity__paragraph">
-          Securely share files and folders with friends, family and colleagues
-          for live collaboration. No email attachments required!
-        </p>
-        <a class="productivity__link" href="#"
-          >See how Fylo works
+        <div class="productivity__background">
           <img
-            class="productivity__link--icon"
-            src="images/icon-arrow.svg"
-            alt="right arrow icon"
+            class="productivity__image"
+            src="images/illustration-2.svg"
+            alt="illustration people talking"
           />
-        </a>
-        <div class="testimonial">
-          <img
-            class="testimonial__image"
-            src="images/icon-quotes.svg"
-            alt="quote icon"
-          />
-          <p class="testimonial__paragraph">
-            Fylo has improved our team productivity by an order of magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
+          <h2 class="productivity__heading">
+            Stay productive, wherever you are
+          </h2>
+          <p class="productivity__paragraph">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
           </p>
-          <div class="testimonial__profile">
+          <p class="productivity__paragraph">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a class="productivity__link" href="#"
+            >See how Fylo works
+            <div class="productivity__link--icon"></div>
+          </a>
+          <div class="testimonial">
             <img
-              class="testimonial__profile--image"
-              src="images/avatar-testimonial.jpg"
-              alt="testimonial photo"
+              class="testimonial__image"
+              src="images/icon-quotes.svg"
+              alt="quote icon"
             />
-            <div>
-              <p class="testimonial__profile--name">Kyle Burton</p>
-              <p class="testimonial__profile--description">
-                Founder & CEO, Huddle
-              </p>
+            <p class="testimonial__paragraph">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="testimonial__profile">
+              <img
+                class="testimonial__profile--image"
+                src="images/avatar-testimonial.jpg"
+                alt="testimonial photo"
+              />
+              <div>
+                <p class="testimonial__profile--name">Kyle Burton</p>
+                <p class="testimonial__profile--description">
+                  Founder & CEO, Huddle
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -132,35 +126,37 @@
     </main>
 
     <footer class="footer">
-      <img class="footer__logo" src="images/logo.svg" alt="" />
+      <div class="footer__top">
+        <div class="footer__logo"></div>
 
-      <div class="footer__contact">
-        <p class="footer__contact--item">
-          <img src="images/icon-phone.svg" alt="phone icon" />Phone:
-          +1-543-123-4567
-        </p>
-        <p class="footer__contact--item">
-          <img src="images/icon-email.svg" alt="email icon" />example@fylo.com
-        </p>
+        <div class="footer__contact">
+          <p class="footer__contact--item">
+            <img src="images/icon-phone.svg" alt="phone icon" />Phone:
+            +1-543-123-4567
+          </p>
+          <p class="footer__contact--item">
+            <img src="images/icon-email.svg" alt="email icon" />example@fylo.com
+          </p>
+        </div>
+
+        <ul class="footer__menu">
+          <li class="footer__menu--item">About Us</li>
+          <li class="footer__menu--item">Jobs</li>
+          <li class="footer__menu--item">Press</li>
+          <li class="footer__menu--item">Blog</li>
+        </ul>
+        <ul class="footer__menu">
+          <li class="footer__menu--item">Contact Us</li>
+          <li class="footer__menu--item">Terms</li>
+          <li class="footer__menu--item">Privacy</li>
+        </ul>
       </div>
-
-      <ul class="footer__menu">
-        <li class="footer__menu--item">About Us</li>
-        <li class="footer__menu--item">Jobs</li>
-        <li class="footer__menu--item">Press</li>
-        <li class="footer__menu--item">Blog</li>
-      </ul>
-      <ul class="footer__menu">
-        <li class="footer__menu--item">Contact Us</li>
-        <li class="footer__menu--item">Terms</li>
-        <li class="footer__menu--item">Privacy</li>
-      </ul>
-
-      <ul class="footer__social">
-        <li class="footer__social--item">facebook</li>
-        <li class="footer__social--item">twitter</li>
-        <li class="footer__social--item">instagram</li>
-      </ul>
+        <ul class="footer__social">
+          <li class="footer__social--item"></li>
+          <li class="footer__social--item"></li>
+          <li class="footer__social--item"></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

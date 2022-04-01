@@ -1,3 +1,6 @@
+.form {
+  width: 100%;
+}
 .form__input,
 .form__button {
   width: 95%;
@@ -7,7 +10,7 @@
   font-family: var(--font-raleway);
 }
 .form__input {
-  border: 1px solid var(--clr-primary-400);
+  border: 0.63px solid var(--clr-primary-400);
   &--signup {
     width: 85.71%;
     height: 3.2rem;
